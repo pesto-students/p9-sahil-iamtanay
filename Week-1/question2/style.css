@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Lato;
+	width: 100%;
+}
+
+.container {
+	position: relative;
+}
+
+.header {
+	height: 30vh;
+	padding: 30px 0 30px 60px;
+	display: flex;
+	align-items: center;
+	background-color: #454545;
+}
+
+.header .albumImage {
+	width: 160px;
+	height: 160px;
+}
+
+.header .albumImage img {
+	width: 100%;
+	height: 100%;
+}
+
+.header .albumDescription {
+	display: flex;
+	flex-direction: column;
+	align-self: stretch;
+	padding-left: 35px;
+	color: #fff;
+	justify-content: space-between;
+}
+
+.header .albumDescription h3 {
+	padding-bottom: 8px;
+}
+
+.header .albumDescription .albumMenu {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+}
+
+.header .albumDescription .albumMenu li i {
+	padding: 0 3px;
+}
+
+.songList {
+	padding: 0 0 0 46px;
+	overflow-x: auto;
+}
+
+#songsL {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#songsL tr {
+	width: 80%;
+
+}
+
+#songsL td {
+	padding: 10px;
+	font-weight: 600;
+	font-size: 13px;
+	width: 20%;
+}
+
+#songsL td a {
+	border: 1px solid #000;
+	color: #00f;
+}
+
+.even:hover,
+.odd:hover {
+	background-color: #ADD8E6;
+	-ms-transform: scale(1.008);
+	/* IE 9 */
+	-webkit-transform: scale(1.008);
+	/* Safari 3-8 */
+	transform: scale(1.008);
+}
+
+.even {
+	background-color: #f1f1f1;
+}
+
+.mplayer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #43689b;
+}
+
+.mplayer .content {
+	align-self: flex-start;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.mplayer .content .songName p {
+	color: #fff;
+	line-height: 20px;
+}
+
+.mplayer .content .albumImage {
+	width: 60px;
+	height: 60px;
+
+}
+
+.mplayer .content .albumImage img {
+	width: 100%;
+	height: 100%;
+
+}
+
+.mplayer .controls {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mplayer .controls i {
+	color: #fff;
+	font-weight: 900;
+}
+
+.sideBar {
+	position: fixed;
+	width: 45px;
+	height: 100vh;
+	background-color: #f0f0f0;
+}
+
+.sideBar .alignSideBar {
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+.sideBar i:hover,
+.controls i:hover {
+	-ms-transform: scale(1.8);
+	/* IE 9 */
+	-webkit-transform: scale(1.8);
+	/* Safari 3-8 */
+	transform: scale(1.8);
+}
