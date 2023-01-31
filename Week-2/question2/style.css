@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 150ms;
+}
+
+.topl {
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    background: red;
+    transition-property: all;
+    transition-duration: 150ms;
+}
+#container:hover .topl {
+     transform:rotate(90deg);
+     transform-origin: 0% -100% 0;
+     transition: 150ms;
+     margin: 100px;
+}
+
+.topr {
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    right: 0px;
+    background: yellow;
+    transition-property: all;
+    transition-duration: 150ms;
+}
+#container:hover .topr {
+     transform:rotate(-90deg);
+     transform-origin: 100% -100% 0;
+     transition: 150ms;
+     margin: 100px;
+}
+
+.bottoml {
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0px;
+    left: 0px;
+    background: blue;
+    transition-property: all;
+    transition-duration: 150ms;
+}
+#container:hover .bottoml {
+     transform:rotate(-90deg);
+     transform-origin: 0% 100%;
+     transition: 150ms;
+}
+
+.bottomr {
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0px;
+    right: 0px;
+    background: green;
+    transition-property: all;
+    transition-duration: 150ms;
+}
+#container:hover .bottomr {
+     transform:rotate(90deg);
+     transform-origin: 100% 200%;
+     transition: 150ms;
+     margin: 100px;
+}
