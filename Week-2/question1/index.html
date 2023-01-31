@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Rocket Science</title>
+		<h1 style="display: flex; justify-content: center; color: rgb(54, 54, 54);">
+			Rocket Science 
+		</h1>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="instructions" style="color: rgb(24, 24, 23); display: block; margin-left: 25%; margin-right: 25%;">
+			<h2>The science that will make us a multi-planetary species!</h2>
+			<br>
+		</div>
+		<div class="content">
+			<div class="intro">
+				<div class="introduction" style="margin-bottom: 2%;">
+					Rocket science is a branch of engineering that involves the design, construction, and launching of rockets and spacecraft. The term “rocket science” is often used to describe complex and challenging technical subjects, but it is also a field of study in its own right. Rocket scientists are responsible for creating the technology that enables us to explore space and carry out scientific experiments beyond our planet. Rocket science has its roots in the early 20th century, when pioneers such as Robert Goddard and Wernher von Braun made significant advances in rocket technology. During the mid-20th century, rocket science played a critical role in the Cold War space race between the United States and the Soviet Union. The successful launch of the Soviet Sputnik satellite in 1957 marked the beginning of the space age, and it wasn't long before humans were sent into space for the first time.
+				</div>
+				<div class="rocketImage">
+					<img src="rockets.jpg" alt="Rockets" style="width: 90%; height: 90%;">
+				</div>
+			</div>
+			<div class="paragraphs">
+				<div class="para" id="para1">
+					<div class="para-heading">
+						<h3>Scope of Rocket Science</h3>
+					</div>
+					<div class="art-summary" style="font-size: medium;">
+						Today, rocket science is a highly interdisciplinary field that draws on a wide range of scientific and engineering disciplines. It requires a deep understanding of aerodynamics, propulsion, structural mechanics, and guidance and control systems. Rocket scientists must also be familiar with materials science, as the materials used in rocket construction must be able to withstand the extreme temperatures and pressures encountered during flight.
+					</div>
+				</div>
+				<div class="para" id="para2">
+					<div class="para-heading">
+						<h3>Goal of Rocket Science</h3>
+					</div>
+					<div class="art-summary" style="font-size: medium;">
+						The goal of rocket science is to create spacecraft that are capable of reaching space, carrying out missions, and returning safely to Earth. This requires a deep understanding of the various physical and engineering principles involved in rocket flight. For example, rocket scientists must be able to design engines that can generate the huge amounts of thrust required to escape Earth's gravity and reach space. They must also be able to design guidance systems that can keep the rocket on course and control its orientation during flight.
+					</div>
+				</div>
+				<div class="para" id="para3">
+					<div class="para-heading">
+						<h3>Why & Why not?</h3>
+					</div>
+					<div class="art-summary" style="font-size: medium;">
+						Rocket science is a challenging field, but it is also one of the most rewarding. Rocket scientists have the opportunity to contribute to our understanding of the universe and advance our technology in ways that were once thought impossible. Whether it's exploring new planets, studying the origins of the universe, or developing new technologies that benefit humanity, the contributions of rocket scientists have a profound impact on our world.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="basicDetails">
+			<form action="#" method="post">
+				<div class="formElements">
+					<label>Title:</label><label style="color: red">*</label>
+					<input type="radio" id="inp1" name="title" value="Mr"><label for="inp1">Mr</label>
+					<input type="radio" id="inp2" name="title" value="Mrs"><label for="inp2">Mrs</label>
+					<input type="radio" id="inp3" name="title" value="Miss"><label for="inp3">Miss</label>
+				</div>
+				<div class="formElements">
+					<label>First Name:</label><label style="color: red">*</label>
+					<span><input type="text" required id="firstName" style="display: block;"/></span>
+				</div>
+				<div class="formElements">
+					<label>Last Name:</label><label style="color: red">*</label>
+					<span><input type="text" required id="lastName" style="display: block;"/></span>
+				</div>
+				<div class="formElements">
+					<div class="label">Email:<label style="color: red">*</label></div>
+					<span><input type="email" required id="email" /></span>
+				</div>
+				<div class="formElements">
+					<div class="label">Phone No.:<label style="color: red">*</label></div>
+					<span><input type="tel" id="phoneNo" pattern="[0-9]{10}" /></span>
+				</div>
+				<div class="formElements">
+					<div class="label">Password:<label style="color: red">*</label></div>
+					<span><input type="password" required id="password" /></span>
+				</div>
+				<div class="formElements">
+					<div class="label">Confirm Password:<label style="color: red">*</label></div>
+					<span><input type="password" required id="confirmPassword" /></span>
+				</div>
+				<div class="formElements">
+					<div class="label">Country:<label style="color: red">*</label></div>
+					<span>
+						<select id="country" required>
+							<option value="india">India</option>
+							<option value="australia">Australia</option>
+							<option value="germany">Germany</option>
+							<option value="austria">Austria</option>
+						</select>
+					</span>
+				</div>
+				<div class="formElements">
+					<span>
+					<input type="checkbox" required id="termsAndCondition" style="margin:0px;"/>
+					<label for="termsAndCondition">
+					I agree to the 
+					<a> terms and conditions.</a>
+					</label>
+					</span>
+				</div>
+				<div class="formElements">
+					<span><input type="submit" value="Sign Up"/></span>
+				</div>
+			</form>
+		</div>
+	</body>
+	<footer>
+		<div class="footer">
+			<p><strong style="font-size: large;">About Author: &nbsp </strong>ChatGPT is an AI language model developed by OpenAI, capable of generating human-like responses to text inputs. Trained on massive amounts of data, it uses deep learning for conversation, language translation, and content generation. </p>
+		</div>
+	</footer>
+</html>
